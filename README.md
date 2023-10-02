@@ -15,7 +15,7 @@ Primero debemos abrir una terminal y ejecutar el siguiente comando, sustituyendo
 ```bash
 conda create --name <nombre-del-entorno> -y --file requirements.txt
 ```
-A continuación debemos activar el entorno con el comando. Si se utiliza Windows debemos usar el comando
+A continuación debemos activar el entorno. Si se utiliza Windows debemos usar el comando
 ```bash
 conda activate <nombre-del-entorno>
 ```
