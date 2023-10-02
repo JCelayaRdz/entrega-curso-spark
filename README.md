@@ -30,7 +30,7 @@ Primero debemos de crear la imagen con el siguiente comando, sustituyendo
 ```bash
 docker build -t <nombre-de-la-imagen> .
 ```
-Una vez creada la imagen debemos de crear un contenedor con el comando, sustituyendo \<nombre-del-contenedor> y \<nombre-de-la-imagen> por valores personalizados
+Una vez creada la imagen debemos de crear un contenedor con el siguiente comando, sustituyendo \<nombre-del-contenedor> y \<nombre-de-la-imagen> por valores personalizados
 ```bash
 docker run -dp 8888:8888 --name <nombre-del-contenedor> <nombre-de-la-imagen>
 ```
